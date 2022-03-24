@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<link rel="stylesheet" href="style.css">
+	<link rel="preconnect" href="https://fonts.googleapis.com">
+	<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+	<link href="https://fonts.googleapis.com/css2?family=Fruktur&family=Roboto&display=swap" rel="stylesheet">
+	<title>Регистрация / Homework_10</title>
+</head>
+
+<body>
+	<div class="form__container">
+		<div class="form__wrap">
+
+			<h1 class="form__title">Регистрация</h1>
+
+			<form method="post" action="#" id="form" class="form">
+
+				<div class="form__input-container1">
+					<lable class="form__lable">Email
+						<input class="form__input _req _email" name="email" type="email" placeholder='johndoe@mail.ru'>
+
+					</lable>
+				</div>
+
+				<div class="form__input-container2">
+					<lable class="form__lable">Пароль
+						<input class="form__input _req" name="pass" type="password" placeholder='password' required>
+					</lable>
+				</div>
+
+				<Lable class="form__lable-check">
+					<input class="form__input-check _req" type="checkbox" name="check" value="1" required>
+					Я согласен c <a href="">Правилами пользования приложением</a>
+				</lable>
+
+				<button class="form__button" type="submit">
+					<span class="form__button-text" href="">Регистрация</span>
+				</button>
+
+			</form>
+
+		</div>
+	</div>
+
+	<script src="script.js"></script>
+</body>
+
+</html>
